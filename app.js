@@ -25,6 +25,3 @@ menu_item.forEach((item) => {
 });
 
 
-// copying email address
-
-
