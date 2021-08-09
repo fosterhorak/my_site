@@ -426,6 +426,7 @@ img{
 
 #projects .projects-header h1 {
     margin-bottom: 50px;
+    align-self: center;
 
 }
 #projects .all-projects {
@@ -436,6 +437,14 @@ img{
     flex-wrap: wrap;
     width: 100%
 }
+
+#projects .all-projects a{
+    /* justify-content: center; */
+    align-content: center;
+
+}
+
+
 #projects .project-item {
     display: flex;
     align-items: center;
@@ -478,6 +487,7 @@ img{
     margin: 10px 2px;
     color: var(--white-text);
     align-self: center;
+    justify-self: center;
     
 }
 #projects .project-info h2{
@@ -513,15 +523,25 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
+    align-self: center;
 }
 
 #projects .project-img img{
     transition: .2s ease transform;
     object-fit: contain;
     align-self: center;
-    margin-left: 20%
-
+    /* margin-left: 20% */
 }
+
+#projects .project-img svg{
+    transition: .2s ease transform;
+    object-fit: contain;
+    align-self: center;
+    /* margin-left: 20% */
+}
+
+
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
 }
