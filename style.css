@@ -531,14 +531,12 @@ img{
     transition: .2s ease transform;
     object-fit: contain;
     align-self: center;
-    /* margin-left: 20% */
 }
 
 #projects .project-img svg{
     transition: .2s ease transform;
     object-fit: contain;
     align-self: center;
-    /* margin-left: 20% */
 }
 
 
